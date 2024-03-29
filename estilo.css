@@ -1,0 +1,144 @@
+
+html{
+    background-color: #E5E5E5;
+    height: 600px;
+    font-family: "Inter", sans-serif;
+}
+
+
+header{
+    height: 48px;
+    width: 120px;
+}
+
+
+#logo{
+    height: 48px;
+    width: 120px;
+}
+
+.cuerpo{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 530px;
+    float: right;
+    position: relative;
+    margin: -45px 8px;
+    border-radius: 25px;
+    top: -450px;
+}
+
+#mensaje-prin{
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    word-wrap: break-word;
+}
+
+#mensaje-prin-2{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.bo_copiar{
+    position: absolute;
+    top: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4%;
+    width: 300px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    background-color: white;
+    font-size: 18px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    border-style: solid;
+    
+}
+
+.bo_copiar:hover{
+    box-shadow: 0px 4px 9px 0px black;
+}
+
+.elementos{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#texto-usuario{
+    height: 214px; 
+    width: 372px;
+    font-size: 200%;
+    background-color: transparent;
+    border: none;
+}
+
+#letrero{
+color: #495057;
+}
+
+.encriptar{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%; 
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    background-color: #0A3871;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    
+}
+.encriptar:hover{
+    box-shadow: 0px 4px 9px 0px black;
+}
+
+.desencriptar{
+    margin-left: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%; 
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    font-size: 18px;
+    /*Ajustes en los bordes*/
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    border-style:solid;
+    
+}
+
+.desencriptar:hover{
+    box-shadow: 0px 4px 9px 0px black;
+}
+
+
+#img-cuerpo{
+    margin-top: 90px;
+}
+
+
+   

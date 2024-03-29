@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nosifer&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <header>
+                <h1 id="logo"><img src="img/Logo.png"></h1>
+            </header>
+
+
+        
+            <div>
+
+                <div class="elementos">
+                    <textarea name="texto" id="texto-usuario" cols="10" rows="10" placeholder="Escribe el texto aqui" maxlength="522"></textarea>
+                </div>
+
+
+                <h1 id="letrero">Solo letras minúsculas y sin acentos</h1>
+                <button onclick="mensaje_encriptar();" class="encriptar" >Encriptar</button>
+                <button onclick="mensaje_desencriptar();" class="desencriptar">Desencriptar</button>
+
+                <div class="cuerpo">
+                    <img id="img-cuerpo" src="img/Frame 10.png">
+                    <h1 id="mensaje-prin">Ningún mensaje fue encontrado</h1>
+                    <h2 id="mensaje-prin-2">Ingresa el texto que desees encriptar o desencriptar.</h2>
+                    <button onclick="copiarAlPortapapeles();" class="bo_copiar" id="boton_copiar" style="display: none;" data-clipboard-target="#mensaje-prin">Copiar</button>
+                </div>
+            </div>
+
+            <script src="logica.js"></script>
+        </body>
+
+        
+</html>
